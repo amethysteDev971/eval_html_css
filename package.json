@@ -1,0 +1,17 @@
+{
+  "name": "html_css",
+  "version": "1.0.0",
+  "description": "consigne :",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "sass --watch ./scss/style.scss ./outputCss/index.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.3.3",
+    "sass": "^1.79.4"
+  }
+}

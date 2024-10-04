@@ -1,0 +1,98 @@
+*, *::after, *::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #0C1212;
+}
+
+button.btn.btn-primary {
+  background-color: #00B2B2;
+  color: #000000;
+  font-weight: 600;
+  padding: 20px;
+  font-size: 1.3rem;
+}
+
+button.btn.btn-secondary {
+  background-color: #005858;
+}
+
+#myNav.navbar.bg-body-tertiary {
+  background-color: #0C1212 !important;
+}
+#myNav.navbar.bg-body-tertiary .collapse.navbar-collapse {
+  display: flex !important;
+  position: relative;
+  justify-content: space-between;
+  margin: 0 20px;
+}
+#myNav.navbar.bg-body-tertiary .collapse.navbar-collapse ul {
+  margin: 0 !important;
+}
+#myNav.navbar.bg-body-tertiary .collapse.navbar-collapse ul li a {
+  color: #FFFFFF;
+  font-size: 1.5em;
+}
+
+#head .img-header {
+  height: 800px;
+  background: url("../../assets/header.webp") center/cover no-repeat;
+}
+#head .card .row {
+  height: 100%;
+}
+#head .card .card-glass {
+  background-color: rgba(178, 255, 255, 0.4);
+  padding: 40px;
+  backdrop-filter: blur(30px) !important;
+}
+#head .card .card-glass p {
+  font-size: 1.4em;
+  font-weight: 600;
+}
+
+h1 {
+  font-size: 4em;
+  font-weight: 600;
+}
+
+h2 {
+  font-size: 2.4em;
+  font-weight: 600;
+}
+
+section#best_vehicule {
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+section#best_vehicule h2 {
+  color: white;
+}
+section#best_vehicule p {
+  color: white;
+}
+section#best_vehicule .best_card .row {
+  margin-top: 50px;
+}
+section#best_vehicule .best_card .row .card_container .card_content {
+  border: solid 2px #FFFFFF;
+  border-radius: 20px;
+  padding: 20px;
+}
+section#best_vehicule .best_card .row .card_container .card_content .btn.btn-secondary {
+  width: 100%;
+  background-color: #005858;
+}
+section#best_vehicule .best_card .row .card_container .img_card {
+  height: 300px;
+  background-color: aqua;
+  background: url("../../assets/header.webp") center/cover no-repeat;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  margin: 5px;
+}
+
+/*# sourceMappingURL=index.css.map */

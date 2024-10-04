@@ -1,0 +1,13 @@
+@use "./../shared/" as *;
+
+button.btn.btn-primary{
+    background-color: $color-segondary;
+    color: $color-black;
+    font-weight: 600;
+    padding: 20px;
+    font-size: 1.3rem;
+}
+
+button.btn.btn-secondary{
+    background-color: $color-primary;
+}

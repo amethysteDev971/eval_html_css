@@ -1,0 +1,41 @@
+@use "./../shared/" as *;
+
+// background: url("./asset/ordi_php.jpg") center/cover no-repeat;
+// #head div.img_header{
+//     height: 600px;
+//     background-color: $color-segondary;
+// }
+#head{
+    // height: 100vw;
+    .img-header{
+        height: 800px;
+        // background-color: $color-segondary;
+        background: url("../../assets/header.webp") center/cover no-repeat;
+    }
+
+    .card{
+        .row{
+            height: 100%;
+        } 
+        .card-glass{
+            // height: 300px;
+            // max-width: 300px;
+            background-color: $color-glace;
+            padding: 40px;
+            backdrop-filter: blur(30px) !important;
+            // filter: blur(30px) !important;
+
+            p{
+                font-size: 1.4em;
+                font-weight: 600;
+            }
+
+        }
+
+
+
+         
+    }
+    
+    
+}
